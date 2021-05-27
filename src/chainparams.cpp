@@ -161,8 +161,7 @@ public:
         }
         assert(consensus.hashGenesisBlock == uint256S("0x0000080bb82eea00d1829271e9582ce0ff14fbaabb29b29e8290b4497214f316"));
         assert(genesis.hashMerkleRoot == uint256S("0xd51f58f4e144833644bce519c384d1fa344f49b2c226d83899ae9139ccbbda63"));
-
-        vSeeds.push_back(CDNSSeedData("walletbuilders.com", "node2.walletbuilders.com"));
+	    
         vSeeds.push_back(CDNSSeedData("zh2coin.com", "node.zh2coin.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,81);
